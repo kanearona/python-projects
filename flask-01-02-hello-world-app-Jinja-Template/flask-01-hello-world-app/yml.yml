@@ -1,0 +1,18 @@
+---
+sport: football
+type: team
+match: 
+ [  - home: Senegal
+    - away: Tunisia
+    - result: "0:3"
+ ]
+ [
+  - home: USA
+  - away: England
+  - result: "0:1"
+ ]
+animal:
+  - reptile: Snake 
+food: [Pasta, bread, pizza, coke]
+---
+ 
