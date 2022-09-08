@@ -5,11 +5,12 @@ from flask import Flask, render_template,redirect,request,url_for
 app = Flask(__name__)
 
 
-#User will make  arequest to the web page ==> receive a login page and
+#User will make  a request to the web page ==> receive a login page and
 # the User will login with his credentials
 #if pasword matches a condition
 #display custom welcome
 #else display another page!
+
 @app.route('/')
 def Welcome():
     return render_template('login.html')
